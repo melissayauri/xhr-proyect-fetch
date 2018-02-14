@@ -10,7 +10,7 @@ El presente trabajo es realizar una petición a la página New York Times y con 
 * Ajax
 
 # Layaout Inicial
-![splash](public/assets/img/captura.PNG)
+![splash](public/assets/img/Captura.PNG)
 
 ## Resultado
 Para hacer la petición de los articulos, se debe hacer lo siguiente:
