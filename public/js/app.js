@@ -39,6 +39,7 @@ window.addEventListener('load', function() {
       const title = data[i].headline.main;
       const snippet = data[i].snippet;
       const web = data[i].web_url;
+      const imgs = data[i].multimedia[0].url;
       console.log(web);
       /* creación del contenedor*/
       let container = document.createElement('div');
@@ -53,6 +54,11 @@ window.addEventListener('load', function() {
       let text = document.createElement('p');
       container.appendChild(text);
       text.innerText = snippet;
+      /* incorporando la imagen*/
+      let imagen = document.createElement('img');
+      imagen.className = 'imagen';
+      imagen.setAttribute('src', `https://static01.nyt.com/${imgs}`);
+      container.appendChild(imagen);
       /* creación del link para ver más información*/
       let moreText = document.createElement('a');
       moreText.className = 'link';

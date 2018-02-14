@@ -9,6 +9,7 @@ font-family: 'Patua One', cursive;
   border-radius: 10px;
   margin-bottom: 3rem;
   box-shadow: 10px 10px;
+  text-align: center;
 }
 
 .title{
@@ -18,5 +19,11 @@ font-family: 'Patua One', cursive;
 
 .link{
   color: black;
+  display: block;
+}
 
+.imagen{
+  width: 20vw;
+  height: 50vh;
+  border-radius: 20px;
 }
