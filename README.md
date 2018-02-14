@@ -21,4 +21,6 @@ Para hacer la petición de los articulos, se debe hacer lo siguiente:
 
 - Finalmente apareceran los artículos que tengan el tema referido.En ello encontrarás: el título del articulo, el resumen y finalmente un link pra que puedas ver más sobre ese artículo.
 
-![splash](public/assets/img/resultado.PNG)
+![splash](public/assets/img/result1.PNG)
+
+![splash](public/assets/img/result2.PNG)
